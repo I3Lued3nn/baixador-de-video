@@ -1,6 +1,6 @@
 from pytube import YouTube
 
-link = "#coloque o link da página do seu video aqui#"
+link = input("coloque o link da página do seu video aqui:")
 
 youtube = YouTube(link)
 
